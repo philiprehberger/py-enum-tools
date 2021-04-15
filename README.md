@@ -94,6 +94,14 @@ json.dumps({"priority": Priority.HIGH}, cls=SerializableEncoder)
 | `SerializableEnum` | Enum that serializes to its value via SerializableEncoder |
 | `SerializableEncoder` | JSON encoder supporting SerializableEnum members |
 
+
+## Development
+
+```bash
+pip install -e .
+python -m pytest tests/ -v
+```
+
 ## License
 
 MIT
