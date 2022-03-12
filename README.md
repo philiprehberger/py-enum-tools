@@ -6,7 +6,7 @@
 
 Practical utilities for Python enums — lookup, validation, listing, and serialization.
 
-## Install
+## Installation
 
 ```bash
 pip install philiprehberger-enum-tools
