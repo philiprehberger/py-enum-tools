@@ -24,9 +24,10 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/philiprehberger/py-enum-tools"
+Homepage = "https://github.com/philiprehberger/py-enum-tools#readme"
 Repository = "https://github.com/philiprehberger/py-enum-tools"
 Issues = "https://github.com/philiprehberger/py-enum-tools/issues"
+Changelog = "https://github.com/philiprehberger/py-enum-tools/blob/main/CHANGELOG.md"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/philiprehberger_enum_tools"]
