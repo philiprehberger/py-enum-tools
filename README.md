@@ -2,8 +2,7 @@
 
 [![Tests](https://github.com/philiprehberger/py-enum-tools/actions/workflows/publish.yml/badge.svg)](https://github.com/philiprehberger/py-enum-tools/actions/workflows/publish.yml)
 [![PyPI version](https://img.shields.io/pypi/v/philiprehberger-enum-tools.svg)](https://pypi.org/project/philiprehberger-enum-tools/)
-[![License](https://img.shields.io/github/license/philiprehberger/py-enum-tools)](LICENSE)
-[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
+[![Last updated](https://img.shields.io/github/last-commit/philiprehberger/py-enum-tools)](https://github.com/philiprehberger/py-enum-tools/commits/main)
 
 Practical utilities for Python enums — lookup, validation, listing, and serialization.
 
@@ -95,7 +94,6 @@ json.dumps({"priority": Priority.HIGH}, cls=SerializableEncoder)
 | `SerializableEnum` | Enum that serializes to its value via SerializableEncoder |
 | `SerializableEncoder` | JSON encoder supporting SerializableEnum members |
 
-
 ## Development
 
 ```bash
@@ -103,6 +101,24 @@ pip install -e .
 python -m pytest tests/ -v
 ```
 
+## Support
+
+If you find this project useful:
+
+⭐ [Star the repo](https://github.com/philiprehberger/py-enum-tools)
+
+🐛 [Report issues](https://github.com/philiprehberger/py-enum-tools/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
+
+💡 [Suggest features](https://github.com/philiprehberger/py-enum-tools/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
+
+❤️ [Sponsor development](https://github.com/sponsors/philiprehberger)
+
+🌐 [All Open Source Projects](https://philiprehberger.com/open-source-packages)
+
+💻 [GitHub Profile](https://github.com/philiprehberger)
+
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/philiprehberger)
+
 ## License
 
-MIT
+[MIT](LICENSE)
